@@ -12,7 +12,7 @@
 /* header */
 
 header{
-    height: 140px;
+    height: 70px;
     /* debug */
     background-color: violet;
 }
@@ -20,8 +20,8 @@ header{
 /* sezione superiore */
 
 #partesupp-main{
-    height: 450px;
-    margin: 30px 0;
+    height: 250px;
+    margin: 15px 0;
     /* debug */
     background-color: rgb(243, 201, 94);
 }
@@ -38,8 +38,8 @@ header{
 }
 
 #partesopra-colonne{
-    height: 100px;
-    margin-bottom: 20px;
+    height: 40px;
+    margin-bottom: 10px;
         /* debug */
     background-color: lightblue;
 }
@@ -47,19 +47,19 @@ header{
 .colsx, .coldx{
     float: left;
     width: 20%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
         /* debug */
     background-color: lightblue;
-    height: 450px;
+    height: 250px;
 }
 
 .colcentr{
     float: left;
-    width: calc(60% - 40px);
-    margin: 0 20px 20px 20px;
+    width: calc(60% - 20px);
+    margin: 0 10px 10px 10px;
         /* debug */
     background-color: lightblue;
-    height: 450px;
+    height: 250px;
 }
 
 footer{
