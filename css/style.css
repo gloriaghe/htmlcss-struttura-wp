@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container{
+#container{
     width: 80%;
     margin: 20px auto;
 }
@@ -17,11 +17,47 @@ header{
     background-color: violet;
 }
 
-/* section */
+/* sezione superiore */
 
-section{
+#partesupp-main{
     height: 450px;
     margin: 30px 0;
     /* debug */
     background-color: rgb(243, 201, 94);
+}
+
+/* colonne */
+#colonne{
+    background-color: rgb(19, 143, 226);
+}
+
+#colonne::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#partesopra-colonne{
+    height: 100px;
+    margin-bottom: 20px;
+        /* debug */
+    background-color: lightblue;
+}
+
+.colsx, .coldx{
+    float: left;
+    width: 20%;
+    margin-bottom: 20px;
+        /* debug */
+    background-color: lightblue;
+    height: 450px;
+}
+
+.colcentr{
+    float: left;
+    width: calc(60% - 40px);
+    margin: 0 20px 20px 20px;
+        /* debug */
+    background-color: lightblue;
+    height: 450px;
 }
