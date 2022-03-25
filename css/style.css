@@ -61,3 +61,10 @@ header{
     background-color: lightblue;
     height: 450px;
 }
+
+footer{
+    height: 30px;
+    margin-top: 5px;
+    /* debug */
+    background-color: purple;
+}
