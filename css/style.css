@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* header */
+
+header{
+    height: 140px;
+    /* debug */
+    background-color: violet;
+}
